@@ -1,0 +1,211 @@
+site_name: News
+site_description: A monthly curated digest of the most significant news — by category.
+site_url: https://utexasdhong.github.io/News/
+repo_url: https://github.com/utexasdhong/News
+repo_name: utexasdhong/News
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Use system preference
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - navigation.tracking
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.tooltips
+    - content.action.edit
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+      permalink_title: Link to this section
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/utexasdhong/News
+  generator: false
+
+copyright: A reading aid — links curated, not original reporting.
+
+nav:
+  - Home: index.md
+  - May 2026:
+      - Overview: 2026-05/index.md
+      - Technology:
+          - AI:
+              - Models: 2026-05/Technology/AI/Models.md
+              - Research: 2026-05/Technology/AI/Research.md
+              - Industry: 2026-05/Technology/AI/Industry.md
+              - Products & Agents: 2026-05/Technology/AI/Products-Agents.md
+              - Policy & Safety: 2026-05/Technology/AI/Policy-Safety.md
+          - Hardware & Chips: 2026-05/Technology/Hardware-Chips.md
+          - Cybersecurity: 2026-05/Technology/Cybersecurity.md
+      - Politics:
+          - US: 2026-05/Politics/US.md
+          - International: 2026-05/Politics/International.md
+      - Science:
+          - Space: 2026-05/Science/Space.md
+          - Health & Medicine: 2026-05/Science/Health-Medicine.md
+          - Climate: 2026-05/Science/Climate.md
+      - Business & Economy:
+          - Markets & Macro: 2026-05/Business-Economy/Markets-Macro.md
+          - Crypto & Fintech: 2026-05/Business-Economy/Crypto-Fintech.md
+      - World:
+          - Major Events: 2026-05/World/Major-Events.md
+      - Culture:
+          - Notable: 2026-05/Culture/Notable.md
+  - April 2026:
+      - Overview: 2026-04/index.md
+      - Technology:
+          - AI:
+              - Models: 2026-04/Technology/AI/Models.md
+              - Research: 2026-04/Technology/AI/Research.md
+              - Industry: 2026-04/Technology/AI/Industry.md
+              - Products & Agents: 2026-04/Technology/AI/Products-Agents.md
+              - Policy & Safety: 2026-04/Technology/AI/Policy-Safety.md
+          - Hardware & Chips: 2026-04/Technology/Hardware-Chips.md
+          - Cybersecurity: 2026-04/Technology/Cybersecurity.md
+      - Politics:
+          - US: 2026-04/Politics/US.md
+          - International: 2026-04/Politics/International.md
+      - Science:
+          - Space: 2026-04/Science/Space.md
+          - Health & Medicine: 2026-04/Science/Health-Medicine.md
+          - Climate: 2026-04/Science/Climate.md
+      - Business & Economy:
+          - Markets & Macro: 2026-04/Business-Economy/Markets-Macro.md
+          - Crypto & Fintech: 2026-04/Business-Economy/Crypto-Fintech.md
+      - World:
+          - Major Events: 2026-04/World/Major-Events.md
+      - Culture:
+          - Notable: 2026-04/Culture/Notable.md
+  - March 2026:
+      - Overview: 2026-03/index.md
+      - Technology:
+          - AI:
+              - Models: 2026-03/Technology/AI/Models.md
+              - Research: 2026-03/Technology/AI/Research.md
+              - Industry: 2026-03/Technology/AI/Industry.md
+              - Products & Agents: 2026-03/Technology/AI/Products-Agents.md
+              - Policy & Safety: 2026-03/Technology/AI/Policy-Safety.md
+          - Hardware & Chips: 2026-03/Technology/Hardware-Chips.md
+          - Cybersecurity: 2026-03/Technology/Cybersecurity.md
+      - Politics:
+          - US: 2026-03/Politics/US.md
+          - International: 2026-03/Politics/International.md
+      - Science:
+          - Space: 2026-03/Science/Space.md
+          - Health & Medicine: 2026-03/Science/Health-Medicine.md
+          - Climate: 2026-03/Science/Climate.md
+      - Business & Economy:
+          - Markets & Macro: 2026-03/Business-Economy/Markets-Macro.md
+          - Crypto & Fintech: 2026-03/Business-Economy/Crypto-Fintech.md
+      - World:
+          - Major Events: 2026-03/World/Major-Events.md
+      - Culture:
+          - Notable: 2026-03/Culture/Notable.md
+  - February 2026:
+      - Overview: 2026-02/index.md
+      - Technology:
+          - AI:
+              - Models: 2026-02/Technology/AI/Models.md
+              - Research: 2026-02/Technology/AI/Research.md
+              - Industry: 2026-02/Technology/AI/Industry.md
+              - Products & Agents: 2026-02/Technology/AI/Products-Agents.md
+              - Policy & Safety: 2026-02/Technology/AI/Policy-Safety.md
+          - Hardware & Chips: 2026-02/Technology/Hardware-Chips.md
+          - Cybersecurity: 2026-02/Technology/Cybersecurity.md
+      - Politics:
+          - US: 2026-02/Politics/US.md
+          - International: 2026-02/Politics/International.md
+      - Science:
+          - Space: 2026-02/Science/Space.md
+          - Health & Medicine: 2026-02/Science/Health-Medicine.md
+          - Climate: 2026-02/Science/Climate.md
+      - Business & Economy:
+          - Markets & Macro: 2026-02/Business-Economy/Markets-Macro.md
+          - Crypto & Fintech: 2026-02/Business-Economy/Crypto-Fintech.md
+      - World:
+          - Major Events: 2026-02/World/Major-Events.md
+      - Culture:
+          - Notable: 2026-02/Culture/Notable.md
+  - January 2026:
+      - Overview: 2026-01/index.md
+      - Technology:
+          - AI:
+              - Models: 2026-01/Technology/AI/Models.md
+              - Research: 2026-01/Technology/AI/Research.md
+              - Industry: 2026-01/Technology/AI/Industry.md
+              - Products & Agents: 2026-01/Technology/AI/Products-Agents.md
+              - Policy & Safety: 2026-01/Technology/AI/Policy-Safety.md
+          - Hardware & Chips: 2026-01/Technology/Hardware-Chips.md
+          - Cybersecurity: 2026-01/Technology/Cybersecurity.md
+      - Politics:
+          - US: 2026-01/Politics/US.md
+          - International: 2026-01/Politics/International.md
+      - Science:
+          - Space: 2026-01/Science/Space.md
+          - Health & Medicine: 2026-01/Science/Health-Medicine.md
+          - Climate: 2026-01/Science/Climate.md
+      - Business & Economy:
+          - Markets & Macro: 2026-01/Business-Economy/Markets-Macro.md
+          - Crypto & Fintech: 2026-01/Business-Economy/Crypto-Fintech.md
+      - World:
+          - Major Events: 2026-01/World/Major-Events.md
+      - Culture:
+          - Notable: 2026-01/Culture/Notable.md
